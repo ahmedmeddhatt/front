@@ -1,0 +1,19 @@
+{
+  "name": "goldady",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NadaEssam799/Goldady.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NadaEssam799/Goldady/issues"
+  },
+  "homepage": "https://github.com/NadaEssam799/Goldady#readme"
+}

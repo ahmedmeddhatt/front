@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+        crossorigin="anonymous">
+    
+ </head>
+ <body>
+    
+     <div class="container">
+       <div class="row">
+        <!-- Start Live Metal -->
+         <div class="col-12 col-lg-4">
+            <div class="box">
+              <div class="material">
+                <header>Live Metal Prices</header>
+                 <div class="market">Market Is Open <span class="circle"></span></div>
+              </div>
+               <div class="gold">
+                 <div class="gold-inner">
+                   <h6>Gold</h6>
+                    <ul>
+                      <li class="green">Buy</li>
+                      <li class="red">Sell</li>
+                      <li>Daily Change</li>
+                      <li>Daily Change %</li>
+                    </ul>
+                    <ul>
+                      <li class="green"> <i class="fas fa-caret-up"></i> EGP 980.00</li>
+                      <li class="red"> <i class="fas fa-caret-down"></i> EGP 970.00</li>
+                      <li>EGP 50</li>
+                      <li>0.1 %</li>
+                    </ul>
+                  </div>
+                <div class="yellow">Daily Change - Difference from day before</div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="chart">
+                <h6>Price Charts :</h6>
+                 <div class="dropdown">
+                  <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">Gold
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Gold</a></li>
+                  </ul>
+              </div>
+            </div>
+            <img src="images/chart.png">
+            <div class="dropdown">
+              <button type="button" class="btn dropdown-toggle day" data-bs-toggle="dropdown">Day
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Gold</a></li>
+              </ul>
+          </div>
+          </div>
+         </div>
+        <!-- End Live Metal -->
+        
+        <!-- Start Instant Buy & Sell -->
+          <div class="col-12 col-lg-4">
+            <div class="box">
+                <header>Instant Buy & Sell</header>
+                 <div class="button1">
+                    <button type="button" class="btn active">BUY</button>
+                    <button type="button" class="btn disabled">SELL</button> 
+                 </div>
+                  <select id="cars">
+                    <option value="volvo">Gold</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                  <div class="quantity">
+                    <span>Quantity</span> 
+                     <span>123 gm</span>
+                  </div>
+                  <div class="dropdown">
+                    <button type="button" class="btn dropdown-toggle second" data-bs-toggle="dropdown">
+                      Order Type
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Gold</a></li>
+                    </ul>
+                     <div class="price">
+                        <span>Price Limite</span> 
+                        <span>EGP </span>
+                    </div>
+                  </div> 
+                  <div class="order">
+                    <span>Order Value Summary</span> 
+                    <span>0000000</span>
+                 </div>
+                 <div class="last">
+                   <button type="button" class="reset">Reset</button>
+                   <button type="button" class="preview">Preview</button>
+                </div>  
+            </div>
+        </div>
+      <!-- End Instant Buy & Sell -->
+
+      <!-- Start Account Balance -->      
+        <div class="col-12 col-lg-4">
+          <div class="box">
+              <header>Account Balance</header>
+                <div class="cash">
+                  <span class="balance">Gold Balance</span>
+                    <ul>
+                      <li><h6 class="yellow2">Available</h6></li>
+                      <li class="yellow2">Withdrawal</li>
+                      <li class="yellow2">Total</li>
+                      <li class="yellow2">Value</li>
+                    </ul>
+                    <ul>
+                      <li><h6>1350 gm</h6></li>
+                      <li>EGP 92,257.00</li>
+                      <li>100 gm</li>
+                      <li>10 gm</li>
+                    </ul>
+                 </div>
+                 <div class="cash">
+                    <span>Cashe Balance</span>
+                    <span>EGP 950,024.00</span>
+                 </div>
+                 <div class="cash">
+                    <span>Unrealized P/L</span>
+                    <span>EGP 950,024.00</span>
+                 </div>
+                 <div class="cash">
+                    <span>Funds in Withdrawal</span>
+                    <span>EGP 950,024.00</span>
+                 </div>
+                 <div class="cash">
+                    <span>Portfolio Value</span>
+                    <span>EGP 90,183</span>
+                 </div> 
+              </div>
+            </div>  
+       <!-- End Account Balance -->
+     </div><!-- row -->
+    </div><!-- container -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ </body>
+</html>
